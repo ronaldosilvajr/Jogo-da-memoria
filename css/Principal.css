@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('../img/fundo3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 3px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.titulo{
+    color: rgb(45, 119, 49);
+    margin-top: 25px;
+    font-size: 50px;
+    cursor: default;
+    transition: 1.5s;
+
+}
+.titulo:hover{
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+    color: transparent;
+
+}
+.card{
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.5 );
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-radius: 15px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 15px;
+}
+.sub-titulo{
+    margin-top: 25px;
+    font-size: 25px;
+    color: rgb(255, 138, 4);
+    cursor: default;
+    transition: 0.5s;
+
+}
+.sub-titulo:hover{
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+    color: transparent;
+}
+.logo{
+    margin-bottom: 25px;
+
+
+}
+.logotipo{
+    left: 0;
+    width: 50px;
+    
+}
+.login__input {
+    border: 2px solid #333;
+    border-radius: 8px;
+    color: #333;
+    font-size: 1em;
+    margin-bottom: 15px;
+    max-width: 300px;
+    outline: none;
+    padding: 15px;
+    width: 100%;
+  }
+  
+  .login__button {
+    background-color: #ee665c;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1em;
+    max-width: 300px;
+    padding: 15px;
+    width: 100%;
+  }
+  
+  .login__button:disabled {
+    background-color: #eee;
+    color: #aaa;
+    cursor: auto;
+  }
